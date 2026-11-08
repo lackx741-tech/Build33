@@ -1,0 +1,17 @@
+{
+  "name": "blower-contracts",
+  "version": "1.0.0",
+  "description": "Solidity contracts: configuration registry, permissions, authorization and transaction records.",
+  "type": "module",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:testnet": "hardhat run script/deploy.js --network bscTestnet",
+    "deploy:mainnet": "hardhat run script/deploy.js --network bsc"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "dotenv": "^16.6.1",
+    "hardhat": "^2.22.0"
+  }
+}
