@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+vendor/
+composer.lock
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+build/
+frontend/dist/
+
+# Logs
+logs/*
+!logs/.gitkeep
+*.log
+npm-debug.log*
+
+# Cache / coverage
+.cache/
+coverage/
+.nyc_output/
+.phpunit.result.cache
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Secrets
+*.pem
+*.key
+secrets/
+
+# Hardhat build output
+contracts/artifacts/
+contracts/cache/
